@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.chat {
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30.16px;
+    letter-spacing: -0.02em;
+}
+.flex-grow{
+    flex-grow: 1;
+}
+
+.app {
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    font-weight: 200;
+    line-height: 30.16px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.bg-color {
+    background: #1E71FF;
+}
+
+.pricing {
+    color: #2B353EB2;
+}
+
+.star-5 {
+    color: #2B353EB2;
+}
+
+.try-it-free {
+    background: #FFFFFF33;
+    border: 0;
+    padding: 12px 24px;
+    border-radius: 210px;
+    color: #fff;
+}
+
+.try-it-free:hover {
+    background-color: #fff;
+    color: #1E71FF;
+}
+
+.color-team {
+    color: #2B353EB2;
+}
+
+.op-hover:hover {
+    -webkit-text-stroke: 1px;
+}
+
+.margn-botton {
+    margin-bottom: 146px;
+}
+
+.padding-bottom {
+    padding-bottom: 160px;
+}
+
+.mt-90 {
+    margin-top: 90px;
+}
+
+.font-poppins {
+    font-family: "Poppins", sans-serif;
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 96.3px;
+    letter-spacing: -0.02em;
+}
+
+.left {
+    left: -80px;
+}
+
+.star-font {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29.11px;
+    text-align: left;
+
+}
+
+.font-span {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.11px;
+    text-align: left;
+}
+
+.font-roboto-400 {
+    font-family: "Roboto", sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24.61px;
+}
+
+.font-roboto-500 {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+}
+
+.roboto-500-14 {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.75px;
+}
+
+.poppins-26 {
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30.16px;
+    letter-spacing: -0.02em;
+}
+
+.poppins-500-45 {
+    font-family: "Poppins", sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 57.78px;
+}
+
+.roboto-400-18 {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.11px;
+}
+
+.button {
+    background: #1E71FF;
+    border: 1px solid white;
+    padding: 15px 42px;
+    border-radius: 60px;
+    color: #fff;
+}
+
+.button:hover {
+    color: #1E71FF;
+    background-color: #fff;
+}
+
+.mt-180 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.button-2 {
+    background-color: #fff;
+    border: 1px solid #1E71FF;
+    padding: 15px 42px;
+    border-radius: 60px;
+    color: #1E71FF;
+    margin-top: 60px;
+}
+
+.button-2:hover {
+    background-color: #1E71FF;
+    color: #fff;
+}
+
+.bg-none {
+    background: none;
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+.ml-36 {
+    margin-left: 36px;
+}
+
+.line {
+    padding: 1px;
+    width: 180px;
+    background: #CCD5E2;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    margin-right: 220px;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.color {
+    color: #1E71FF;
+}
+
+.text-color {
+    color: #2B353EB2;
+}
+
+.instant {
+    color: #2B353E;
+}
+
+.lorem {
+    color: #2B353EB2;
+}
+
+.mb-12 {
+    margin-bottom: 12px;
+}
+
+.back-g-color {
+    background: #1E71FF1A;
+}
+
+/*-------------------responsiv------------------------------------------------------*/
+
+@media (max-width:992px) {
+    .navbar-items {
+        flex-direction: column !important;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        background-color: #000000;
+        position: fixed !important;
+        top: 0;
+        right: -100%;
+        z-index: 4;
+        transition: all 300ms linear;
+        height: 100vh;
+    }
+
+    label[for="menubar"] {
+        width: 32px;
+        height: 30px;
+        margin-bottom: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        cursor: pointer;
+        z-index: 5;
+    }
+
+    label[for="menubar"] span {
+        width: 100%;
+        height: 5px;
+        margin: 2px 0;
+        background-color: white;
+        z-index: 5;
+    }
+
+    input[type="checkbox"]:checked~.navbar-items {
+        right: 0;
+    }
+
+    .star {
+        flex-direction: column;
+    }
+
+    .font-roboto-500 {
+        font-size: 8px;
+    }
+
+    .font-roboto-400 {
+        font-size: 11px;
+    }
+
+    .button {
+        padding: 9px 32px;
+    }
+
+    .button-2 {
+        padding: 9px 32px;
+    }
+
+    .font-poppins {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .poppins-500-45 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .roboto-400-18 {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .mt-180 {
+        margin-top: 20px;
+    }
+    .line{
+        margin-right: 0;
+    }
+
+    input[type="checkbox"]:checked~label[for="menubar"] span:first-child {
+        transform: rotate(35deg);
+        transform-origin: left;
+        transition: all 300ms linear;
+        background-color: red;
+    }
+
+    input[type="checkbox"]:checked~label[for="menubar"] span:nth-child(2) {
+        transform: translateX(-40px);
+        opacity: 0;
+        transition: all 300ms linear;
+        background-color: red;
+    }
+
+    input[type="checkbox"]:checked~label[for="menubar"] span:last-child {
+        transform: rotate(-35deg);
+        transform-origin: left;
+        transition: all 300ms linear;
+        background-color: red;
+    }
+
+}
